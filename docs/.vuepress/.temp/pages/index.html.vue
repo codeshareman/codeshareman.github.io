@@ -1,3 +1,4 @@
-<template><div></div></template>
+<template><div><p>My Blog</p>
+</div></template>
 
 
