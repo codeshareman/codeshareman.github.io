@@ -1,0 +1,10 @@
+.vp-tag-r2pw {
+  --vp-tag-color: #3a5ccc;
+  --vp-tag-hover-color: #3451b2;
+  --vp-tag-bg: rgba(100, 108, 255, 0.14);
+}
+.vp-tag-ntln {
+  --vp-tag-color: #fab10f;
+  --vp-tag-hover-color: #f39c12;
+  --vp-tag-bg: rgba(255, 213, 0, 0.14);
+}
