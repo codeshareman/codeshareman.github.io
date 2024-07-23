@@ -14,6 +14,8 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/theme-default": "2.0.0-rc.38",
+    "chart.js": "^4.4.3",
+    "reveal.js": "^5.1.0",
     "vue": "^3.4.33",
     "vuepress": "2.0.0-rc.14",
     "vuepress-theme-plume": "1.0.0-rc.80"

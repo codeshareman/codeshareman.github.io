@@ -1,4 +1,7 @@
 import {
+  setupDevtoolsPlugin
+} from "./chunk-D2YVLGJ5.js";
+import {
   computed,
   defineComponent,
   getCurrentInstance,
@@ -17,11 +20,8 @@ import {
   watch,
   watchEffect
 } from "./chunk-4OGJ2DNH.js";
-import {
-  setupDevtoolsPlugin
-} from "./chunk-D2YVLGJ5.js";
 
-// node_modules/.pnpm/vue-router@4.4.0_vue@3.4.33_typescript@5.5.3_/node_modules/vue-router/dist/vue-router.mjs
+// node_modules/.pnpm/vue-router@4.4.0_vue@3.4.33/node_modules/vue-router/dist/vue-router.mjs
 var isBrowser = typeof document !== "undefined";
 function isESModule(obj) {
   return obj.__esModule || obj[Symbol.toStringTag] === "Module";

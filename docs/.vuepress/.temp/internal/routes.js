@@ -1,10 +1,9 @@
-export const redirects = JSON.parse("{\"/get-started.html\":\"/article/y6xmens9/\",\"/notes/typescript/file.html\":\"/typescript/e04agzbj/\",\"/notes/typescript/foo.html\":\"/typescript/r55twj28/\"}")
+export const redirects = JSON.parse("{\"/get-started.html\":\"/article/y6xmens9/\"}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
   ["/article/y6xmens9/", { loader: () => import(/* webpackChunkName: "article_y6xmens9_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/article/y6xmens9/index.html.js"), meta: {"title":"文章标题"} }],
-  ["/typescript/e04agzbj/", { loader: () => import(/* webpackChunkName: "typescript_e04agzbj_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/typescript/e04agzbj/index.html.js"), meta: {"title":"file"} }],
-  ["/typescript/r55twj28/", { loader: () => import(/* webpackChunkName: "typescript_r55twj28_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/typescript/r55twj28/index.html.js"), meta: {"title":"foo"} }],
+  ["/notes/", { loader: () => import(/* webpackChunkName: "notes_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/notes/index.html.js"), meta: {"title":"foo"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
   ["/en/blog/", { loader: () => import(/* webpackChunkName: "en_blog_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/en/blog/index.html.js"), meta: {"title":"Blog"} }],
   ["/en/blog/tags/", { loader: () => import(/* webpackChunkName: "en_blog_tags_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/en/blog/tags/index.html.js"), meta: {"title":"Tags"} }],

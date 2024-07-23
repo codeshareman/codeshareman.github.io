@@ -1,4 +1,4 @@
-export const sidebar = {"/en/":{},"/":{"/typescript/":{"items":[{"text":"简介","icon":"mdi:language-typescript","items":["foo","file"]}],"prefix":"/notes/typescript/"},"/rust/":{"items":[{"text":"简介","items":["foo"]}],"prefix":"/notes/rust/"}},"__auto__":{}}
+export const sidebar = {"/en/":{},"/":{"/typescript/":{"items":[{"text":"简介","icon":"mdi:language-typescript","items":["foo","file","interface"]}],"prefix":"/notes/typescript/"}},"__auto__":{}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
