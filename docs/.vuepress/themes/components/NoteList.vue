@@ -1,10 +1,25 @@
 <script setup>
+import { getNoteCategory } from '../models/note';
+import CardItem from './CardItem.vue';
+const categories = getNoteCategory();
+
+
 </script>
 
 <template>
   <HomeBox :type="type" :background-image="backgroundImage" :background-attachment="backgroundAttachment" :full="full">
   </HomeBox>
-  <div class="notes">笔记首页</div>
+  <div class="notes card-wrapper">
+    <div v-for="(item, index) in categories">
+      <CardItem :data="item">{{ item.name }}</CardItem>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.card-wrapper {
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+  gap: 20px;
+}
+</style>

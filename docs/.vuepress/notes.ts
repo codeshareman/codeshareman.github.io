@@ -3,7 +3,7 @@ import {
   definePlumeNotesItemConfig,
 } from "vuepress-theme-plume";
 
-const typescriptNotes = definePlumeNotesItemConfig({
+export const TypescriptNoteConfig = definePlumeNotesItemConfig({
   dir: "typescript",
   link: "/typescript/",
   text: "Typescript",
@@ -11,7 +11,7 @@ const typescriptNotes = definePlumeNotesItemConfig({
     {
       text: "简介",
       icon: "mdi:language-typescript",
-      items: ["foo", "file", 'interface'],
+      items: ["intro", "file", "interface"],
     },
   ],
 });
@@ -19,6 +19,5 @@ const typescriptNotes = definePlumeNotesItemConfig({
 export default definePlumeNotesConfig({
   dir: "/notes/",
   link: "/",
-  notes: [typescriptNotes],
+  notes: [TypescriptNoteConfig],
 });
-

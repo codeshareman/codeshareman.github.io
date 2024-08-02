@@ -1,7 +1,6 @@
 ---
-title: foo
+title: 我的笔记
 author: Teemo.zzz
-createTime: 2024/07/19 22:21:30
 permalink: /notes/
 ---
 
