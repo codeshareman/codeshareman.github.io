@@ -9,9 +9,10 @@ import * as clientConfig7 from '/Users/codeshareman/Documents/ME/GitHub/learn-al
 import * as clientConfig8 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/sass-palette/load-hope.js'
 import * as clientConfig9 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/md-enhance/config.js'
 import * as clientConfig10 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/md-power/config.js'
-import * as clientConfig11 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/node_modules/.pnpm/@vuepress+plugin-comment@2.0.0-rc.38_typescript@5.5.3_vuepress@2.0.0-rc.14_@vuepress+bundler-_gnf5fi7jyamkivqugdw6qrsufq/node_modules/@vuepress/plugin-comment/lib/client/config.js'
-import * as clientConfig12 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/node_modules/.pnpm/vuepress-theme-plume@1.0.0-rc.80_@algolia+client-search@4.24.0_chart.js@4.4.3_markdown-it@14._vhuh77hvpc4w36f4esljdnjrnm/node_modules/vuepress-theme-plume/lib/client/config.js'
-import * as clientConfig13 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/client.ts'
+import * as clientConfig11 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/node_modules/.pnpm/@vuepress+plugin-watermark@2.0.0-rc.38_typescript@5.5.3_vuepress@2.0.0-rc.14_@vuepress+bundle_bthlxn2777rhmdbvczol2t62a4/node_modules/@vuepress/plugin-watermark/lib/client/config.js'
+import * as clientConfig12 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/node_modules/.pnpm/@vuepress+plugin-comment@2.0.0-rc.38_typescript@5.5.3_vuepress@2.0.0-rc.14_@vuepress+bundler-_gnf5fi7jyamkivqugdw6qrsufq/node_modules/@vuepress/plugin-comment/lib/client/config.js'
+import * as clientConfig13 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/node_modules/.pnpm/vuepress-theme-plume@1.0.0-rc.80_@algolia+client-search@4.24.0_chart.js@4.4.3_markdown-it@14._vhuh77hvpc4w36f4esljdnjrnm/node_modules/vuepress-theme-plume/lib/client/config.js'
+import * as clientConfig14 from '/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -28,4 +29,5 @@ export const clientConfigs = [
   clientConfig11,
   clientConfig12,
   clientConfig13,
+  clientConfig14,
 ].map((m) => m.default).filter(Boolean)

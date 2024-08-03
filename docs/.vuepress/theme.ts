@@ -28,6 +28,20 @@ export const theme: Theme = plumeTheme({
     markdownPower: {
       bilibili: true,
       caniuse: true,
+      youtube: true,
+    },
+    shiki: {
+      twoslash: true,
+    },
+    search: {},
+    watermark: {
+      enabled: false,
+      // enabled: (page) => true,
+      delay: 500,
+      fullPage: false,
+      watermarkOptions: {
+        content: "Teemo.zzz",
+      },
     },
   },
   ...plumeConfig,

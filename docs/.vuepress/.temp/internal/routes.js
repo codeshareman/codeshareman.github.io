@@ -1,12 +1,12 @@
-export const redirects = JSON.parse("{\"/get-started.html\":\"/article/y6xmens9/\",\"/notes/typescript/file.html\":\"/typescript/start/\",\"/notes/typescript/interface.html\":\"/typescript/pt5skz9f/\",\"/notes/typescript/intro.html\":\"/typescript/intro/\"}")
+export const redirects = JSON.parse("{\"/get-started.html\":\"/article/y6xmens9/\",\"/notes/nodejs/resource.html\":\"/nodejs/resource/\",\"/notes/nodejs/what.html\":\"/nodejs/what/\",\"/notes/nodejs/why.html\":\"/nodejs/why/\"}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
   ["/article/y6xmens9/", { loader: () => import(/* webpackChunkName: "article_y6xmens9_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/article/y6xmens9/index.html.js"), meta: {"title":"文章标题"} }],
-  ["/notes/", { loader: () => import(/* webpackChunkName: "notes_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/notes/index.html.js"), meta: {"title":"我的笔记"} }],
-  ["/typescript/start/", { loader: () => import(/* webpackChunkName: "typescript_start_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/typescript/start/index.html.js"), meta: {"title":"file"} }],
-  ["/typescript/pt5skz9f/", { loader: () => import(/* webpackChunkName: "typescript_pt5skz9f_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/typescript/pt5skz9f/index.html.js"), meta: {"title":"interface"} }],
-  ["/typescript/intro/", { loader: () => import(/* webpackChunkName: "typescript_intro_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/typescript/intro/index.html.js"), meta: {"title":"intro"} }],
+  ["/notes/", { loader: () => import(/* webpackChunkName: "notes_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/notes/index.html.js"), meta: {"title":"Gallery"} }],
+  ["/nodejs/resource/", { loader: () => import(/* webpackChunkName: "nodejs_resource_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/nodejs/resource/index.html.js"), meta: {"title":"resource"} }],
+  ["/nodejs/what/", { loader: () => import(/* webpackChunkName: "nodejs_what_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/nodejs/what/index.html.js"), meta: {"title":"Node.js是什么?"} }],
+  ["/nodejs/why/", { loader: () => import(/* webpackChunkName: "nodejs_why_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/nodejs/why/index.html.js"), meta: {"title":"为什么要使用Node.js"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
   ["/en/blog/", { loader: () => import(/* webpackChunkName: "en_blog_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/en/blog/index.html.js"), meta: {"title":"Blog"} }],
   ["/en/blog/tags/", { loader: () => import(/* webpackChunkName: "en_blog_tags_index.html" */"/Users/codeshareman/Documents/ME/GitHub/learn-algo/docs/.vuepress/.temp/pages/en/blog/tags/index.html.js"), meta: {"title":"Tags"} }],

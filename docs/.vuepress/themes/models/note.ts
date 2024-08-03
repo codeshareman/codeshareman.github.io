@@ -15,26 +15,28 @@ export interface NoteCategoryMeta {
   sidebars: SidebarItemMeta[];
 }
 
-const noteConfigs: NoteCategoryMeta[] = [
-  {
-    name: "typescript",
-    title: "Typescript",
-    link: "/typescript/intro/",
-    imgLink: "/typescript.png",
-    author: "Teemo.zzz",
-    updateTime: new Date(),
-    sidebars: [],
-  },
-  {
+type NoteCategory = "nodejs" | "typescript";
+
+export const noteConfig: { [K in NoteCategory]: NoteCategoryMeta } = {
+  nodejs: {
     name: "NodeJs",
-    title: "NodeJs",
-    link: "/node.js/",
+    title: "Learn NodeJs",
+    link: "/nodejs/what/",
     imgLink: "/nodejs.png",
     author: "Teemo.zzz",
-    updateTime: new Date(),
     sidebars: [],
   },
-];
+  // typescript: {
+  //   name: "typescript",
+  //   title: "Learn Typescript",
+  //   link: "/typescript/intro/",
+  //   imgLink: "/typescript.png",
+  //   author: "Teemo.zzz",
+  //   sidebars: [],
+  // },
+};
+
+const noteConfigs = [noteConfig.nodejs];
 
 export function getNoteCategory(configs: NoteCategoryMeta[] = noteConfigs) {
   return noteConfigs.map(({ sidebars, ...categories }) => categories);

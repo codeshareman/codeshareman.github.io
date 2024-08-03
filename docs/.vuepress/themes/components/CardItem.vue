@@ -39,7 +39,7 @@ function goto() {
 .card-item {
   display: flex;
   flex-direction: column;
-  height: 256px;
+  height: 220px;
   overflow: hidden;
   box-shadow: -1px 1px 10px #e6e6e6;
   border-radius: 10px;

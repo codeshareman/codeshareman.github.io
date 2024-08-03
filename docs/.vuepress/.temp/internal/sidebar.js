@@ -1,4 +1,4 @@
-export const sidebar = {"/en/":{},"/":{"/typescript/":{"items":[{"text":"简介","icon":"mdi:language-typescript","items":["intro","file","interface"]}],"prefix":"/notes/typescript/"}},"__auto__":{}}
+export const sidebar = {"/en/":{},"/":{"/nodejs/":{"items":[{"text":"Get Started","icon":"mdi:nodejs","collapsed":false,"items":[{"text":"Node.js是什么?","target":"../notes/nodejs/intro.md","link":"/nodejs/what/"},{"text":"为什么要使用Node.js","target":"../notes/nodejs/file.md","link":"/nodejs/why/"},{"text":"学习资源","target":"../notes/nodejs/resource.md","link":"/nodejs/resource/"}]}],"prefix":"/notes/nodejs/"}},"__auto__":{}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

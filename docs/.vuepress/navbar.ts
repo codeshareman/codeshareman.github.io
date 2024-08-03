@@ -2,7 +2,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export default defineNavbarConfig([
   {
-    text: "学习笔记",
+    text: "Gallery",
     icon: "icon-park-outline:guide-board",
     link: "/notes/",
     activeMatch: "^/guide/",
